@@ -1,0 +1,164 @@
+.unique-form.modal {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    
+    width:90%;
+    max-width: 990px;
+    margin: 30px auto;
+    border: none;
+    border-radius: 0;
+
+    box-shadow: 0 0 5px #222;
+    background: rgba(255, 255, 255, 0.92);
+    position:fixed;
+    padding-right:0 !important;
+    overflow: hidden !important;
+    padding-top:70px;
+}
+.unique-form.modal .modal-content {
+    overflow-x:hidden;
+    overflow-y:auto;
+    height:100%;
+}
+.unique-form.modal .unique_form {
+    margin-top:20px;
+}
+.unique-form.modal .templates-block {
+    margin:-20px 0 20px;
+}
+.unique-form.modal .templates-block ul {
+    border: none;
+}
+.unique-form.modal .extauth-providers {
+    border:none;
+}
+
+.unique-form.modal .caret {
+    display:none;
+}
+
+.unique-form.modal .check_list {
+    margin-bottom:40px;
+}
+
+.unique_buy_auto {
+    display: inline-block; 
+    margin:0 5px;
+}
+.ui-widget-content .unique_buy_auto {
+    border-top:1px solid transparent;
+    display:inline-block;
+    line-height:14px;
+}
+.unique_buy_auto.on, .ui-widget-content .unique_buy_auto.on {
+    margin:0;
+    padding:0 5px;
+    line-height: 14px; 
+    text-align:center; 
+    border-radius: 10px;
+    text-decoration:none;
+    background: #eb7a00; 
+    color:#fff; 
+}
+.unique_buy_auto.on:hover {
+    color:#fff;
+}
+.unique_buy_auto.on {
+
+}
+
+.unique-form h2 {
+    margin-bottom:20px;
+    padding-top:15px;
+    display:block;
+    font-size: 30px;
+}
+
+.unique-form.modal .botmenu a {
+    display:inline-block;
+    float: none;
+}
+.modal .modal-content {
+    box-shadow:none;
+    border: none;
+    /*height:98%;*/
+}
+.unique-form.modal .container-fluid {
+}
+.unique-form .container-block {
+   margin-top:1em;
+}
+.unique-form .u_block {
+    background: #f9f9f9;
+    border-radius: 0 0 3px 3px;
+    padding:1em 1em 0;
+}
+.unique-form.modal .u_block hr {
+    margin:15px -13px
+}
+.unique-form.modal .right-panel .u_block {
+    background:#fff;
+}
+.unique-form.modal .total_price {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0 0;
+    font-size: 13px;
+    line-height:22px;
+    min-width:280px;
+    height:70px;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    color:#000;
+    background:#fff;
+    z-index:1;
+    box-shadow: 0 0 10px 2px #ddd;
+}
+.unique-form .total_price h3, .unique-form .total_price .h3 {
+    color:#000;
+}
+
+.unique-form .price-block .uni_button {
+    padding:3px 5px;
+    margin-top: 5px;
+}
+
+
+.unique-form .close {
+  position: absolute;
+  top: -3px;
+  right: 5px;
+  font-size: 33px;
+  z-index: 1001;
+  background: #fff;
+}
+.unique-form .close.close-modal {
+    background-color: transparent;
+    border-color: transparent;
+    cursor:pointer;
+    outline:none;
+    opacity:1;
+}
+
+#unique_type, #unique_text_type {
+    width:100%;
+}
+
+.unique-form .btn-unique-check-block {
+    top:20px; 
+}
+.btn-unique-check-block {
+    position:relative; 
+    z-index:1;
+}
+
+.index_show {
+    display:none;
+}
+.box.index_promo .index_show {
+    display:block;
+}

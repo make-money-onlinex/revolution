@@ -1,0 +1,8 @@
+.intro .services-types {
+    position:relative;
+    height:150px;
+    top:-150px;
+}
+.intro .buttons {
+    margin-top:-150px;
+}

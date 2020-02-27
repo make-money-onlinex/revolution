@@ -1,0 +1,42 @@
+.modal {
+    width:auto;
+    margin: auto;
+}
+
+.navbar .row > div {
+    width:100%;
+}
+.navbar .logo {
+    display:block;
+    text-align:center;
+}
+.navbar .login-buttons {
+    float: none;
+    text-align:center;
+    margin-bottom: 5px;
+}
+.navbar .login-buttons li a {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.navbar .login-buttons ul li:nth-of-type(5) {
+    margin-left: 10px !important;
+}
+section .col-md-4 {
+  width: 33.33333333%;
+  float:left;
+}
+.intro .services-types {
+    margin-top:-60px;
+    text-align:center;
+}
+
+.reviews .row li {
+    width:50%;
+}
+.reviews .row li:nth-of-type(5) {
+    width:100%;
+}
+.reviews .row .cite {
+    line-height: 200px;
+}

@@ -1,0 +1,136 @@
+.modal {
+    width:auto;
+    margin: auto;
+}
+
+h1, h2 {
+    font-size: 40px;
+}
+
+.navbar .row > div {
+    width:100%;
+}
+.navbar .logo {
+    display:block;
+    text-align:center;
+}
+.navbar .logo a {
+    display:block;
+    margin:0 auto 7px;
+}
+.navbar .logo span {
+    display:none;
+}
+
+.navbar .login-buttons {
+    float: none;
+    text-align:center;
+    margin-bottom: 5px;
+}
+.navbar .login-buttons li a {
+    margin-top: 6px !important;
+    margin-bottom: 5px !important;
+}
+.navbar .login-buttons ul .notices {
+    margin-right: 0px;
+}
+ul {
+    padding-left: 0px;
+}
+.navbar .login-buttons ul ul  {
+    display:inline-block;
+}
+.navbar .login-buttons > ul > li {
+    float:none;
+}
+
+.intro {
+    text-align:center;
+}
+.intro h1 {
+    margin-bottom:0;
+    font-size: 42px;
+}
+.intro .row > div {
+    margin-top:40px;
+}
+.intro .buttons .btn {
+    width: 90%;
+}
+.intro .buttons .row > div {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.intro .btn.pull-right {
+    float:none !important;
+}
+
+.stat .row > div {
+    margin: 20px 0;
+}
+.stat .row > div .pic {
+    margin-bottom:0;
+    margin-right:10px;
+}
+.stat .row .desc {
+    position:relative;
+    top:-15px;
+}
+.stat .col-xs-4 {
+    width:100%;
+    text-align:center;
+}
+.stat .col-xs-4 > div {
+    display:inline-block;
+}
+
+.content3step .btn {
+    width: 90%;
+}
+
+.executors .row li, .reviews .row li {
+    width:100%;
+}
+.reviews .row li {
+    margin-bottom:90px;
+}
+
+
+.reviews .slick-prev {
+    left: 0;
+}
+.reviews .slick-next {
+    right: 0;
+}
+
+.aboutprice .btn  {
+    width: 90%;
+}
+
+.features .btn {
+    width: 90%;
+}
+
+.footer ul {
+    text-align: center;
+}
+.footer li {
+    display:inline-block;
+    margin-right: 10px;
+}
+
+.login-modal {
+    bottom:0;
+}
+#login_small {
+    width:auto;
+}
+
+
+#help_block_container {
+    right: 5px;
+    top: 35px;
+}
+#help_block_container .dropdown-menu {
+    width: 245px;
+}

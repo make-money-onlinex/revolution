@@ -1,0 +1,382 @@
+._report a {
+    color:#222;
+}
+
+.__plag-app {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999999;
+  overflow-x: hidden;
+  overflow-y: auto; }
+  .__plag-app .__overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    opacity: 0.8;
+    background: #000000; }
+  .__plag-app ._app {
+    position: relative;
+    width: 980px;
+    z-index: 999999;
+    font-family: 'Trebuchet MS', Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #000000;
+    background: #ffffff;
+    margin: 30px auto;
+    border: 10px solid #5c832F;
+    border-radius: 10px;
+    box-shadow: 0 0 5px #222; }
+
+._container ._text, ._text_container {
+  margin-bottom: 20px;
+  max-height: 500px;
+  overflow: auto;
+  }
+  ._text_container  {
+      border: 1px solid #ddd;
+      padding:15px;
+      margin-bottom: 0;
+  }
+._structure_gradient {
+    position:relative;
+    margin-top:25px;
+}
+._structure_gradient .gradient {
+    position:absolute;
+    content: "";
+    width:100%;
+    height:10px;
+    top:-15px;
+    left:0;
+}
+  
+._container ._layers, ._layers_container ._layers, ._layers_container ._words, ._layers_container ._bins {
+      max-height: 400px;
+      overflow: auto;
+  }
+  ._layers_container ._structure_gradient._bins {
+      overflow: initial;
+  }
+._container ._layers_header, ._layers_header {
+    /*
+      padding: 5px 10px;
+      background: #90B557;
+      color: #fff;
+      border: 1px solid #90B557;
+      font-weight: bold;
+    */
+    margin-top:10px;
+    background:#90B557;
+    padding: 7px 10px;
+    cursor:pointer;
+    color:#fff;
+  }
+  ._container ._layers_header span, ._layers_header span {
+    font-weight: bold;
+    display:inline-block;
+  }
+  ._slide_container {
+      margin-bottom:20px;
+      display:none;
+  }
+._layers_footer {
+  padding: 5px 10px;
+  text-align:right;
+  font-size: 12px;
+}
+._container ._layer, ._layer {
+  color: #000000;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+  transition: 0.5s ease-out;
+  position:relative;
+  padding:0 80px 0 20px;
+  background:#fff;
+  }
+  
+._layer .percentage {
+    position: absolute;
+    width: 80px;
+    display: inline-block;
+    top: 0;
+    right: 0;
+}
+
+._layer .num {
+    position: absolute;
+    left: 4px;
+    bottom: 0;
+    height: 24px;
+    line-height: 24px;
+    border-right: 1px solid #eee;
+    width: 16px;
+    text-align: right;
+    padding-right: 5px;
+}
+._layer .num span {
+    opacity: 0.5;
+    font-size: 10px;
+}
+
+._links {
+    position: absolute;
+    width: 40px;
+    height: 23px;
+    line-height: 25px;
+    display: inline-block;
+    top: 0;
+    right: 85px;
+    white-space: nowrap;
+}
+._container ._layer:last-child, ._layer:last-child {
+  border-bottom: none; }
+._container ._layer_hl, ._layer_hl {
+  background: #eee;
+  transition: 0.5s ease-out; 
+  font-weight:bold;
+  }
+  ._layer_hl .eq, ._layer_hl .rw {
+      color:#000;
+  }
+._word_layer_hl {
+    background: #bbb;
+}
+._word.currentWord {
+    background:#000 !important;
+    color:#fff !important;
+}
+.groupby_choice {
+    font-weight:normal; 
+    font-size: 11px;
+    text-align:right;
+}
+.current-info
+{
+    padding: 6px 5px; 
+    font-size: 11px; 
+    background:#fff; 
+    border-bottom: 1px solid #eee;
+    position:relative;
+}
+.groupby_choice .active {
+    border:none;
+    font-weight: bold;
+    color:#000;
+    font-size: 12px;
+}
+._container ._layer_chosen, ._layer_chosen {
+  background: grey;
+  transition: 0.5s ease-out; }
+._container ._word, ._word {
+  transition: 0.5s ease-out; }
+  ._container ._word._word._hl_blue, ._word._word._hl_blue, ._word._word._hl_rw {
+    background: rgba(47,237,254, 1);
+    transition: 0.5s ease-out; 
+    }
+  ._container ._word._word._hl, ._word._word._hl, ._word._word._hl_eq {
+    background: rgba(253,254,48, 1);
+    transition: 0.5s ease-out; 
+    }
+    
+    .invisible_character {
+        width: 9px;
+        text-align: center;
+        display: inline-block;
+        color: #000;
+        height: 13px;
+        line-height: 13px;
+        font-size: 8px;
+        margin: 0 0px;
+        position: relative;
+        top: -1px;
+    }
+    .currentWord .invisible_character {
+        color:#fff;
+    }
+    .currentBadWord {
+        border: 1px solid #f00;
+        position: relative;
+    }
+    .switched_letter {
+        width: 11px;
+        text-align: center;
+        display: inline-block;
+        background: #f00;
+        position: relative;
+        top: 0px;
+        margin: 0 1px;
+        height: 13px;
+        line-height: 13px;
+        color: #fff;
+    }
+    ._layer .rw, ._layer .eq {
+        padding: 6px 5px;
+        width:40px;
+        text-align:right;
+        display:inline-block;
+        font-size: 12px;
+    }
+    ._layer .rw {
+        background: rgba(47,237,254, 0.1);
+    }
+    ._layer .eq {
+        background: rgba(253,254,48, 0.1);
+    }
+    ._layer .rw:hover span, ._layer .eq:hover span, .finded_url:hover span {
+        border-bottom:1px dotted;
+    }
+    ._layer .rw.active {
+        background: rgba(47,237,254, 1);
+    }
+    ._layer .eq.active {
+        background: rgba(253,254,48, 1);
+    }
+    
+    
+    ._layers {
+        background: #ddd;
+    }
+    .domain.opened {
+        margin-top: 5px;
+    }
+    .showWords {
+        text-decoration:none;
+    }
+    .opened .showUrls .finded_url, .opened .showWords .finded_url {
+        font-weight:bold;
+    }
+    .showUrls .fa-plus-square-o, .showWords .fa-plus-square-o {
+        display:initial;
+    }
+    .opened .showUrls .fa-plus-square-o, .opened .showWords .fa-plus-square-o {
+        display:none;
+    }
+    
+    .showUrls .fa-minus-square-o, .showWords .fa-minus-square-o {
+        display:none;
+    }
+    .opened .showUrls .fa-minus-square-o, .opened .showWords .fa-minus-square-o {
+        display:initial;
+    }
+    
+    ._links a {
+        text-decoration:none;
+    }    
+    .urls {
+        margin-bottom: 5px;
+    }
+    .urls .domain {
+        
+    }
+    .urls .finded_url .fa {
+        opacity:0.5;
+        font-size:14px;
+    }
+
+  .finded_url {
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    padding: 0 5px;
+    line-height: 27px;
+    height: 23px;
+    font-size: 12px;
+  }
+  
+._container ._word_chosen, ._word_chosen {
+  background: grey !important;
+  text-decoration: underline;
+  transition: 0.5s ease-out; }
+._container ._popup, ._container1 ._popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 700px;
+  min-height: 500px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 3px; }
+._container ._popup_header, ._container1 ._popup_header {
+  padding: 5px 10px;
+  background: #eee;
+  color: #333;
+  border: 1px dotted #ddd;
+  border-radius: 3px 3px 0 0;
+  font-weight: bold; }
+._container ._close, ._container1 ._close {
+  float: right;
+  cursor: pointer; }
+._container ._links, ._links {
+  display: inline-block;
+  float: right; 
+  text-align:right;
+  }
+._container ._link, ._link {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center; 
+  font-size: 12px;
+  }
+._container ._diff_left, ._container ._diff_right, ._container1 ._diff_left, ._container1 ._diff_right {
+  float: left;
+  width: 45%;
+  margin: 13px; }
+._container ._snippet, ._container1 ._snippet {
+  margin-bottom: 10px; }
+._container ._snippet i, ._container1 ._snippet i {
+  background: #FDFE30;
+  font-style: normal; }
+  
+.help-hint {
+    display:inline-block;
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    line-height:15px;
+    text-align:center;
+    border: 1px solid #eee;
+    background:#ccc;
+    font-size: 11px;
+    margin: 5px 0 0 10px;
+}
+  
+  
+.unique-gradient-legend {
+    width:200px;
+}
+.unique-gradient-legend ul {
+    padding-left: 0; 
+    margin-top: 15px;
+}
+.unique-gradient-legend ul li {
+    list-style-image:none; 
+    list-style-type: none;
+}
+.unique-gradient-legend ul li span:first-child {
+    display: inline-block; 
+    width: 10px; 
+    height: 10px;
+}
+
+._structure_gradient {
+    
+}
+._structure_gradient .gradient {
+    overflow: hidden; 
+    clear:both;
+}
+._structure_gradient .gradient div {
+    float:left; 
+    height: 10px;
+}
+
+.tabs-analize .botmenu {
+    display:none;
+}

@@ -1,0 +1,12 @@
+.intro .services-types {
+    margin-top:-150px;
+}
+.reviews .row li {
+    width:50%;
+}
+.reviews .row li:nth-of-type(5) {
+    width:100%;
+}
+.reviews .row .cite {
+    line-height: 200px;
+}

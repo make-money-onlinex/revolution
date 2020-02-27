@@ -1,0 +1,110 @@
+.modal {
+    width:auto;
+    margin: auto;
+}
+.navbar .row > div {
+    width:100%;
+}
+.navbar .logo {
+    display:block;
+    text-align:center;
+}
+.navbar .login-buttons {
+    float: none;
+    text-align:center;
+    margin-bottom: 5px;
+}
+.navbar .login-buttons li a {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.notices {
+    margin-top: 4px !important;
+    margin-bottom: 13px !important;
+    margin-right: 0px !important;
+}
+ul {
+    padding-left: 0px;
+}
+.navbar .login-buttons ul ul  {
+    display:inline-block;
+}
+.navbar .login-buttons > ul > li {
+    float:none;
+}
+.intro {
+    text-align:center;
+}
+.intro h1 {
+    margin-bottom:0;
+}
+.intro .services-types {
+    text-align:center;
+}
+.intro .row > div {
+    margin-top:40px;
+}
+.intro .buttons .btn {
+    width: 60%;
+}
+.intro .buttons .row > div {
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.intro .btn.pull-right {
+    float:none !important;
+}
+.content3step .btn, .features .btn {
+    width: 60%;
+}
+
+.executors .row li {
+    width:33.33333%;
+}
+.executors .row li:nth-of-type(4), .executors .row li:nth-of-type(5) {
+    width:50%;
+}
+
+.reviews {
+    width:100%;
+}
+.reviews .row li {
+    width:50%;
+    margin-bottom:90px;
+}
+.reviews .row li:nth-of-type(5) {
+    width:100%;
+}
+
+
+.reviews .slick-prev {
+    left: 0;
+}
+.reviews .slick-next {
+    right: 0;
+}
+
+.footer ul {
+    text-align: center;
+}
+.footer li {
+    display:inline-block;
+    margin-right: 10px;
+}
+.footer .links li {
+    width:30%;
+}
+.footer .card {
+    width:80%;
+    margin:0 auto;
+}
+.footer .card li {
+    width:46%;
+}
+
+.login-modal {
+    bottom:0;
+}
+#login_small {
+    width:auto;
+}
